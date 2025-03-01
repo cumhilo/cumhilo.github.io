@@ -1,0 +1,31 @@
+# Ignorar la carpeta de configuración de IntelliJ IDEA
+.idea/
+
+# Ignorar archivos de proyecto de IntelliJ
+*.iml
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos de configuración o credenciales (si los hubiera)
+.env
+.env.local
+.env.*.local
+
+# Ignorar dependencias de Node.js (si existiera la carpeta node_modules)
+node_modules/
+
+# Ignorar posibles carpetas de build o empaquetado (ajusta según tu caso)
+dist/
+build/
+out/
+
+# Ignorar cualquier otro archivo que no quieras subir
+# (Descomenta o agrega según corresponda)
+# /resources/artwork/
+# *.jpg
+# *.png
