@@ -9,7 +9,6 @@
                 if (elem) {
                     window.scrollTo({
                         top: elem.offsetTop,
-                        behavior: "smooth",
                     });
                 }
             }
